@@ -1,38 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100%;
+  margin:0;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  min-width: 325px;
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Card {
+  background-color: hsl(216, 50%, 16%);
+  width: 275px;
+  height: 495px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.418);
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+
+.NFT_Container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#NFT {
+  width: 270px;
+  height: 250px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+.content p {
+  color: hsla(0, 0%, 100%, 0.849);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95px;
+}
+
+#ethereum {
+  font-weight: bold;
+  /* font-weight: 500; */
+}
+
+.footer {
+  border-top: .5px solid hsl(215, 32%, 27%);
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+span {
+  color: hsla(0, 0%, 100%, 0.849);
+  font-weight: bold;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white ;
+  border-radius: 50%;
 }
