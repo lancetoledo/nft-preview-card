@@ -1,10 +1,10 @@
 import React from 'react'
 
 
+
 export default function Card() {
     return (
         <div className = "Card">
-            
             <div className ="NFT_Container">
                 <img src="./images/image-equilibrium.jpg" alt="" id ="NFT"></img>
             </div>
